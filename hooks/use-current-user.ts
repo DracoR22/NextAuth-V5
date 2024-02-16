@@ -3,7 +3,6 @@ import { useSession } from "next-auth/react";
 export const useCurrentUser = () => {
   const session = useSession();
 
-  return session.data?.user;
+  return session.data?.user;  // USE THIS IS CLIENT COMPONENTS 
 };
 
-// USE THIS IS CLIENT COMPONENTS
